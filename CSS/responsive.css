@@ -1,0 +1,338 @@
+@media screen and (max-width: 550px) {
+    #nav-menu-cont {
+        max-width: 100%;
+        height: auto;
+        padding: 1%;
+        flex-wrap: nowrap;
+    }
+
+    #main-logo {
+        max-width: 95px;
+        min-height: 120px;
+        margin-left: 1%;
+    }
+
+    #nav-menu-list {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 0;
+        width: 75%;
+    }
+
+    #nav-menu-list ul {
+        flex-wrap: nowrap;
+        width: 5%;
+        max-width: 100%;
+    }
+
+    #nav-menu-list ul li {
+        margin: 4px;
+        padding: 7px;
+    }
+
+    /*=========== main ===========*/
+
+    #main-content-home-page  {
+        flex-wrap: wrap-reverse;
+    }
+
+    #main-text-cont {
+        width: 100%;
+    }
+
+    #main-text-cont p, h2 {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    #main-text-cont {
+        padding: 0;
+        margin: 0;
+    }
+
+    #main-content-flag-list  {
+        width: 100%;
+    }
+
+    #flag-container {
+        margin-top: 25px;
+    }
+
+    /*======= vantagens container ========== */
+
+    #vantages-container {
+        margin: 0;
+    }
+
+    #title-section {
+        font-size: 1.3em;
+    }
+
+    .card-vantages {
+        min-width: 45%;
+    }
+
+    /*========== opera house sec =======*/
+
+    #text-group {
+        font-size: 1.1em;
+    }
+
+    #text-group h3 {
+        margin: 0px 7px;
+    }
+
+    /*========== second-main =========*/
+
+    #main-second-container {
+        flex-wrap: wrap-reverse;
+        height: auto;
+    }
+
+    #images-group {
+        min-width: 95%;
+        height: 50vh;
+        margin: 0;
+    }
+
+    #text-group {
+        padding: 0;
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+/*=======div table=======*/
+
+    #table-container {
+    flex-wrap: wrap;
+    }
+
+
+    #text-title-table {
+        font-size: 1.3em;
+        padding: 0;
+        width: 100%;
+    }
+
+    #div-table {
+        width: 95%;
+        height: auto;
+    }
+
+    #div-table table {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    /*====== travel-container =======*/
+
+    #travel-container {
+        flex-wrap: wrap;
+    }
+
+    #trav-horiz-sec-one {
+        flex-wrap: wrap;
+    }
+
+    #trav-horiz-sec-two {
+        flex-wrap: wrap-reverse;
+        margin-top: 5px;
+    }
+
+    .info-l {
+        font-size: .9em;
+    }
+
+    .info-r, .info-l {
+        width: 95%;
+        height: 50%;
+    }
+
+    .info-r {
+        margin-bottom: 5px;
+    }
+
+    #trav-horiz-sec-three {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    #cd-three {
+        margin-top: -5px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    /*===== final section =====*/
+
+    #final-section {
+        margin-top: 5px;
+    }
+
+    #newslater {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #newslater-text, #newslater-form {
+        width: 95%;
+        height: auto;
+    }
+
+    #newslater-text h1 {
+        margin: 7px 0 0 0;
+    }
+
+    #newslater-form {
+        margin: 0px;
+    }
+
+    form {
+        padding: 10px 0px;
+    }
+
+    form input[type="text"], input[type="email"] {
+        width: 95%;
+    }
+
+    #newslater-submit {
+        width: 50%;
+        padding: 3px;
+
+    }
+
+    #newslater-text {
+        margin: 0;
+    }
+
+    #footer-main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    footer {
+        min-height: 65vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #links-uteis-container {
+        font-size: 1.5em;
+        width: 95%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    #links-uteis-tables ul {
+        font-size: 1.1em;
+        text-align: center;
+        margin: 0;
+        width: 95%;
+    }
+
+    #redes-sociais-container {
+        width: 45%;
+    }
+
+    #redes-sociais-container ul li a, i {
+        font-size: 1em;
+    }
+
+    #footer-logo {
+        min-width: 25%;
+        margin: 0px;
+        height: auto;
+    }
+
+    #cprt-cont {
+        width: 80%;
+        font-size: .8em;
+    }
+
+    #copyrigth {
+        margin: 5px;
+    }
+
+    #seta {
+        padding: 10px;
+        margin-right: 10px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #nav-menu-cont {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-height: none;
+    }
+
+    #nav-menu-list {
+        min-width: none;
+        width: 100%;
+    }
+
+    #nav-menu-list ul li a {
+        font-size: 6vw;
+        width: auto;
+    } 
+/*================ Table ==============*/
+    #div-table table {
+        font-size: 1em;
+        max-width: 90%;
+        height: auto;
+        padding: 0;
+    }
+
+    #div-table {
+        min-width: none;
+        height: auto;
+    }
+    
+    #div-table table {
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+        min-width: none;
+        min-height: auto;
+        font-size: .9em;
+    }
+    
+    #div-table table tr {
+        line-height: 25px;
+    }
+    
+    #div-table table th, td{
+        padding: 0px 5px;
+        border: 2px solid white;
+    }
+    
+
+
+    /*================ cards cotainer =================*/ 
+
+    #cards-container {
+        height: auto;
+        flex-direction: column;
+    }
+
+
+    /*================ travel-container ============= */
+
+    .info-l {
+        font-size: .7em;
+    }
+}

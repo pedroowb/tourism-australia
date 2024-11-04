@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+#nav-menu-cont {
+    background-color: rgb(2, 26, 97);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 90px;
+    max-height: 100px;
+    max-width: 100%;
+    padding: 0 10% 0 10%;
+}
+
+#main-logo {
+    align-items: center;
+    min-width: 10%;
+    max-width: 100px;
+    max-height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    transform: scale(.95);
+    transition: .5s;
+    border: 1px solid rgb(2, 26, 97);
+}
+
+#main-logo:hover {
+    transform: scale(1);
+}
+
+#main-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#nav-menu-list {
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    padding-bottom: 20px;
+}
+
+#nav-menu-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    list-style-type: none;
+}
+
+#nav-menu-list ul li {
+    padding: 15px;
+    transition: .1s;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(1, 29, 112);
+}
+
+#nav-menu-list ul a {
+    font-family: 'Shippori Antique', sans-serif;
+    color: rgb(251, 254, 255);
+    text-decoration: none;
+    transition: .05s ;
+}
+#nav-menu-list ul a:hover {
+    border-bottom: 2px solid yellow;
+}
+
+/*=========== main ===========*/
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+#main-content-home-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-text-cont {
+    padding: 15px;
+    height: auto;
+    width: 50%;
+}
+
+#main-text-cont p, h2 {
+    text-align: left;
+    margin: 10px;
+    font-size: calc(0.7em + 0.9vw);  
+}
+
+#main-text-cont p {
+    color: rgb(0, 0, 0);
+}
+
+#main-text-cont h2 {
+    margin-top: 40px;
+    color: #001a4d;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#main-content-flag-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+}
+
+#flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#list-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    list-style-type: none;
+    height: auto;
+    padding: 5px 0 5px 0;
+}
+
+#list-container li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #002776;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 31%;
+    min-width: 60px;
+    height: auto;
+}
+
+#flag-container img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    max-width: 70%;
+    min-width: 250px;
+    height: auto;
+    transition: .5s;
+}
+
+/*========== second-main =========*/
+
+
+#main-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+#images-group {
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/original-95ba7bf3b1d31497abc528a3805ad2f0-1024x682.jpeg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 5px 0px 10px;
+}
+
+#text-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: calc(0.8em + 0.9vw);
+    text-align: center;  
+    color: #002776;
+}
+
+#text-group h3 {
+    background-image: url("../imagens/Flag_of_Australia_\(converted\).svg.png");
+    background-position: center;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(0, 0, 0, 0);
+    text-shadow: 0px 0px 1px #0027769d;
+}
+
+#image1{
+    border-radius: 10px;
+   max-height: 100%;
+   max-width: 100%;
+}
+
+/*#image2 {
+    position: absolute;
+    top: 133%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    max-height: 50%;
+}*/
+
+/*====== Section vantages ========*/
+
+#title-section {
+    color: #021A61;
+}
+
+#vantages-container {
+    margin: 10px 0px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    flex-direction: column;
+}
+
+#cards-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: auto;
+}
+
+.card-vantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 7px;
+    flex: 1;
+    min-width: 30%;
+    height: auto;
+    min-height: 140px;
+    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("../imagens/1200px-Australia_flag_waving_icon.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: unset;
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.5em + 0.7vw);
+    font-size: max(1vw, 11.5px);
+}
+
+.card-vantages h3 {
+    letter-spacing: 1px;
+}
+
+
+/*============= travel container ==========*/
+
+#travel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.info-r, .info-l {
+    width: 49%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.info-r {
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-r h1{
+    display: block;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.info-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#if-one {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/praia.jpg");
+}
+
+#if-two {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/mppw21.jpg");
+}
+
+#if-three {
+    background-image:  linear-gradient(90deg, rgba(0, 8, 34, 0.582) 0%, rgba(0, 57, 85, 0.582) 0%),  url("../imagens/deserto.jpg");
+}
+
+
+.info-l h2 {
+    text-align: center;
+}
+
+#cd-one {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/thumb-1920-458181.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cd-two {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/bird.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cd-three {
+    background-image:  linear-gradient(90deg, rgba(3, 21, 75, 0.280) 0%, rgba(0, 79, 118, 0.280) 0%),  url("../imagens/outback.jpg");
+    background-color: #0027763b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#trav-horiz-sec-one {
+    height: 50vh;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#trav-horiz-sec-two {
+    height: 50vh;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#trav-horiz-sec-three {
+    height: 50vh;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*=======final section============*/
+
+#final-section {
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%);
+    margin-top: 5px;
+    height: auto;
+}
+
+#newslater {
+    background: linear-gradient(336deg, rgba(2, 26, 97, 0.432) 0%, rgba(0, 59, 88, 0.445) 20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+}
+
+#newslater-text {
+    font-size: calc(0.5em + 0.7vw);
+    width: 45%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
+    color: white;
+}
+
+#newslater-text h1{
+    margin-bottom: 25px;
+}
+
+#newslater-form {
+    width: 45%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+form {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(336deg, rgba(0, 0, 0, 0.432) 0%, rgba(1, 13, 19, 0.445) 20%); 
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
+form input[type="text"], input[type="email"] {
+    width: 60%;
+    min-width: 205px;
+    height: 15%;
+    max-height: 45px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(2, 26, 97);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form input[type="text"], input[type="email"]:focus {
+    outline: none;
+}
+
+#newslater-submit {
+    padding: 5px;
+    min-width: 30%;
+    background-color: #021A61;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%); 
+    transition: .2s;
+}
+
+#newslater-submit:hover{
+    transform: scale(1.1);
+}
+
+/*=======div table=======*/
+
+#table-container {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-title-table {
+    width: 45%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: calc(1em + 1vw);
+    text-align: center;  
+    color: #002776;
+}
+
+#text-title-table h2{
+    background-image: url("../imagens/Flag_of_Australia_\(converted\).svg.png");
+    background-position: center;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(0, 0, 0, 0);
+    text-shadow: 0px 0px 1px #0027769d;
+    text-align: center;
+}
+
+#div-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 55%;
+    height: 60vh;
+}
+
+#div-table table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    min-width: 300px;
+    min-height: 300px;
+    font-size: 1em;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(0, 20, 80, 0.836) 0%, rgba(0, 61, 92, 0.836) 0%)
+}
+
+#div-table table th {
+    background-color: #021A61;
+}
+
+#div-table table tr {
+    line-height: 27px;
+}
+
+#div-table table th, td{
+    padding: 0px 5px;
+    border: 2px solid white;
+}
+
+#australia-row {
+    font-weight: bold;
+    color: rgb(211, 211, 0);
+    background-image: linear-gradient(90deg, rgb(3, 21, 75) 0%, rgba(0, 59, 88, 0.822) 0%), url("../imagens/1200px-Australia_flag_waving_icon.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+/*==========footer============== */
+
+footer {
+    background: rgb(2,26,97);
+    background: linear-gradient(336deg, rgba(2,26,97,1) 0%, rgba(0,59,88,1) 100%); 
+    height: 100%;
+}
+
+#footer-main-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 55%;
+}
+
+#links-uteis-container {
+    padding: 0;
+    color: yellowgreen;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-justify: center;
+    min-width: 43%;
+}
+
+#links-uteis-tables {
+    margin-left: 0;
+    font-size: 1.1em;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#links-uteis-tables ul {
+    list-style-type: none;
+    max-width: 45%;
+    margin: 0px 12px;
+}
+
+#links-uteis-tables ul li {
+    line-height: 25px;
+}
+
+#links-uteis-tables ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: calc(0.5em + 0.7vw);
+}
+
+#links-uteis-tables ul li a:hover {
+    color: rgb(170, 172, 255);
+}
+
+#redes-sociais-container {
+    color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 10px;
+}
+
+
+#redes-sociais-container h2 {
+    text-align: center;
+}
+
+#redes-sociais-container ul {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#redes-sociais-container ul li {
+    max-width: 155px;
+    height: auto;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+#redes-sociais-container ul li a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#redes-sociais-container ul li a, i{
+    max-width: 95%;
+    margin: 3px;
+    color: white; 
+    text-decoration: none;
+    font-size: calc(0.6em + 0.8vw);
+    transition: .2s;
+}
+
+#redes-sociais-container ul li a, i:hover{
+    color: rgb(193, 212, 255);
+    transform: scale(1.05);
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+#footer-logo img {
+    max-width: 100%;
+}
+
+#cprt-cont {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.5em + 0.6vw);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#copyrigth {
+    margin: 0px 10px 0px 0px;
+}
+
+#author a{
+    text-decoration: none;
+    color: yellowgreen;
+    transition: .2s;
+}
+
+#author a:hover{
+    color: yellow;
+}
+
+#seta {
+    text-align: center;
+    width: 5%;
+    height: auto;
+    position: fixed;
+    top: 85%;
+    right: 15px;
+    z-index: 100;
+    border-radius: 10%;
+}
+
+#seta i {
+    color: rgb(175, 175, 0);
+    opacity: .5;
+    transition: .2s;
+}
+
+#seta i:hover {
+    transform: scale(1.3);
+}
